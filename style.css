@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+body
+{
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profiletext .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.InformacióndeContacto
+{
+    padding-top: 40px;
+}
+.titulo
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.InformacióndeContacto ul
+{
+    position: relative;
+}
+.InformacióndeContacto ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.InformacióndeContacto ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.InformacióndeContacto ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.InformacióndeContacto.aptitudes li
+{
+    margin-bottom: 15px;
+}
+.InformacióndeContacto.aptitudes h5
+{
+    
+    font-weight: 500;
+}
+.InformacióndeContacto.idiomas .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+}
+.InformacióndeContacto.idiomas .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.InformacióndeContacto.informatica h5
+{
+    font-weight: 500;
+}
+.InformacióndeContacto.informatica li
+{
+    margin-bottom: 15px;
+}
+.profiletext h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.acerca
+{
+    margin-bottom: 20px;
+}
+.acerca:last-child
+{
+    margin-bottom: 20px;
+}
+.titulo2 
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.acerca p
+{
+    margin-bottom: 16px;
+}
+p
+{
+    color: #333;
+
+}
+.text h4
+{
+    color: red;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.acerca .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.acerca .box .año_compania
+{
+    min-width: 150px;
+}
+.acerca .box .año_compania h5
+{
+    text-transform: uppercase;
+    color:#03a9f4;
+    font-weight: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
