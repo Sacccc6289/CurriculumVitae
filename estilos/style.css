@@ -7,13 +7,18 @@
 
 }
 body
-{
-background: lightblue;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
+
+button.azul {
+    background-color: #3498db;
+
 }
+button.verde{
+    background-color: #2ecc71;
+}
+button.anaranjado{
+    background-color: orangered;
+}
+
 .container
 {
     position: relative;
@@ -164,6 +169,13 @@ min-height: 100vh;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+.titulo3
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px; 
+}
 .acerca p
 {
     margin-bottom: 16px;
@@ -200,7 +212,8 @@ p
     padding: 0;
 }
 
-.ir-arriba {
+.ir-arriba 
+{
 	display:none;
 	padding:20px;
 	background:#024959;
